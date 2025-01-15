@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3826261856405149298}
   m_Layer: 2
   m_Name: lightbeam
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 6444981506655107165}
   m_Layer: 2
   m_Name: Beam
-  m_TagString: LightBeam
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 5087085519804958132}
   m_Layer: 2
   m_Name: beambox
-  m_TagString: LightBeam
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
