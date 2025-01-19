@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8538576235972723260}
   - component: {fileID: 4019988700088396261}
   - component: {fileID: 848142770248579325}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 834825219828772607}
   - component: {fileID: 4040369475819885710}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Main Cam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3634359061312387363}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: aimlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 5258523286688117434}
   - component: {fileID: 6475983304447131132}
   - component: {fileID: 627181770694491697}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 172981433091940435}
   - component: {fileID: 4985271149128489966}
   - component: {fileID: 5112574417481818029}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: face
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1636675331300166961}
   - component: {fileID: 8335505778631138750}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: 'Aim Cam '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +486,9 @@ GameObject:
   - component: {fileID: 8361042115248071205}
   - component: {fileID: 3696664221303697806}
   - component: {fileID: 3715626866727903919}
-  m_Layer: 0
+  - component: {fileID: 7482970468097594647}
+  - component: {fileID: 2487891726508668946}
+  m_Layer: 2
   m_Name: gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,6 +581,39 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7482970468097594647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7295474649396890920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Camera","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 0}
+--- !u!114 &2487891726508668946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7295474649396890920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: d925131302533904f8374f924e39e621, type: 2}
 --- !u!1 &7301363759552226198
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,7 +629,7 @@ GameObject:
   - component: {fileID: 3024383816451958365}
   - component: {fileID: 4691080584934415350}
   - component: {fileID: 7674203009431162937}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -711,12 +746,13 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Maincam","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"gun","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"aim
-      cursor","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      cursor","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2768829442870690917}
     - {fileID: 2597223838479756214}
     - {fileID: 7295474649396890920}
+    - {fileID: 0}
 --- !u!114 &4691080584934415350
 MonoBehaviour:
   m_ObjectHideFlags: 0
